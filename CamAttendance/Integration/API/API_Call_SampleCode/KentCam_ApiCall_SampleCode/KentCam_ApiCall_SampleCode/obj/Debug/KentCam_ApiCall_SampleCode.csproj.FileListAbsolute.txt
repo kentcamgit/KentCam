@@ -1,0 +1,14 @@
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\bin\Debug\KentCam_ApiCall_SampleCode.exe.config
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\bin\Debug\KentCam_ApiCall_SampleCode.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\bin\Debug\KentCam_ApiCall_SampleCode.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\bin\Debug\Newtonsoft.Json.dll
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\bin\Debug\Newtonsoft.Json.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\bin\Debug\Newtonsoft.Json.xml
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.csprojAssemblyReference.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.Form1.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.Properties.Resources.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.csproj.GenerateResource.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.csproj.CoreCompileInputs.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.csproj.CopyComplete
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCam_ApiCall_SampleCode\KentCam_ApiCall_SampleCode\obj\Debug\KentCam_ApiCall_SampleCode.pdb
