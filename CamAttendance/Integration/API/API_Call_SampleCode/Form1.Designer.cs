@@ -1,4 +1,4 @@
-﻿namespace KentCam_ApiCall_SampleCode
+﻿namespace API_Call_SampleCode
 {
     partial class Form1
     {

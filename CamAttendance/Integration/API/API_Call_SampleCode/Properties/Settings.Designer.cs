@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KentCam_ApiCall_SampleCode.Properties
+namespace API_Call_SampleCode.Properties
 {
 
 

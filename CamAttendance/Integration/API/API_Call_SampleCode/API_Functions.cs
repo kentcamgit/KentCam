@@ -18,17 +18,60 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace KentCam_ApiCall_SampleCode
+namespace API_Call_SampleCode
 {
-    class Api_Methods
+    class API_Functions
     {
-        public void HTTP_PostRequest(dynamic jsonData, string AccountId, string secureToken)
+        private string _baseurl= "https://prod-fe-apis.camattendance.com";
+        private DateTime _DT_from;
+        private DateTime _DT_To;
+        private string _AccountId = "";
+        private string _secureToken = "";
+        private string _PathtoCreateDataFile = "";
+        private string _JsonFilePathToAddEmp = "";
+        public string BaseUrl
         {
-            string base64EncodedStr = EncryptString(AccountId, secureToken);
+            get { return _baseurl; }
+            set { _baseurl = value; }
+        }
+        public DateTime DT_from
+        {
+            get { return _DT_from; }
+            set { _DT_from = value; }
+        }
+        public DateTime DT_To
+        {
+            get { return _DT_To; }
+            set { _DT_To = value; }
+        }
+        public string AccountId
+        {
+            get { return _AccountId; }
+            set { _AccountId = value; }
+        }
+        public string secureToken
+        {
+            get { return _secureToken; }
+            set { _secureToken = value; }
+        }
+        public string PathtoCreateDataFile
+        {
+            get { return _PathtoCreateDataFile; }
+            set { _PathtoCreateDataFile = value; }
+        }
+        public string JsonFilePathToAddEmp
+        {
+            get { return _JsonFilePathToAddEmp; }
+            set { _JsonFilePathToAddEmp = value; }
+        }
+
+        public void HTTP_PostRequest(dynamic jsonData, string base64EncodedStr)
+        {
+            
             HttpClientHandler handler = new HttpClientHandler();
             HttpClient client = new HttpClient(handler);
 
-            string messageUri = "https://fly1cnrt79.execute-api.ap-south-1.amazonaws.com/prod/public-api/employee";
+            string messageUri = BaseUrl + "/prod/public-api/employee";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(messageUri);
             var BodyPara = base64EncodedStr;
@@ -56,22 +99,21 @@ namespace KentCam_ApiCall_SampleCode
             }
         }
 
-        public void GetTransactionLog(string CompanyId, string EmpId, string AccountId, string secureToken, DateTime DT_From, DateTime DT_To, string PathToCreateFile)
+        public void GetTransactionLog(string Base64EncodedToken)
         {
             StringBuilder sb = new StringBuilder();
             try
             {
-                string lastEvaluatedKey = ""; string Size50 = "&size=10";
-                string Base64EncodedToken = EncryptString(AccountId, secureToken);
+                string lastEvaluatedKey = ""; string Size50 = "&size=50";               
                 HttpClientHandler handler = new HttpClientHandler();
                 HttpClient client = new HttpClient(handler);
                 string content = string.Empty;
 
-                string DateFrom = GetTimeInMiliSec(DT_From);
+                string DateFrom = GetTimeInMiliSec(DT_from);
                 string date_To = GetTimeInMiliSec(DT_To);
             Found:
 
-                string messageUri = " https://fly1cnrt79.execute-api.ap-south-1.amazonaws.com/prod/public-api/transactions?from=" + DateFrom + "&to=" + date_To + lastEvaluatedKey + Size50;
+                string messageUri = BaseUrl + "/prod/public-api/transactions?from=" + DateFrom + "&to=" + date_To + lastEvaluatedKey + Size50;
 
                 HttpWebRequest request = (HttpWebRequest)WebRequest.Create(messageUri);
                 var BodyPara = Base64EncodedToken;
@@ -129,25 +171,25 @@ namespace KentCam_ApiCall_SampleCode
             catch (Exception ex) { }
             finally
             {
-                CreateTextFile(sb, PathToCreateFile);
+                CreateTextFile(sb);
             }
         }
-        public string EncryptString(string accountId, string secureToken)
+        public string EncryptString()
         {
             long currentTimeMillis = (long)DateTime.Now.ToUniversalTime().Subtract(new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalMilliseconds;
 
-            string base64Decoded = secureToken + "_" + currentTimeMillis + "_" + accountId;
+            string base64Decoded = secureToken + "_" + currentTimeMillis + "_" + AccountId;
             string base64Encoded;
             byte[] data = System.Text.ASCIIEncoding.ASCII.GetBytes(base64Decoded);
             base64Encoded = System.Convert.ToBase64String(data);
             return base64Encoded;
         }
-        public string ReadDataFromTextFile(string textFilePath)
+        public string ReadDataFromTextFile()
         {
             string JsonData = string.Empty;
-            if (File.Exists(textFilePath))
+            if (File.Exists(JsonFilePathToAddEmp))
             {
-                JsonData = File.ReadAllText(textFilePath);
+                JsonData = File.ReadAllText(JsonFilePathToAddEmp);
             }
             return JsonData;
         }
@@ -156,11 +198,11 @@ namespace KentCam_ApiCall_SampleCode
             long TimeInMiliSec = (long)Time.ToUniversalTime().Subtract(new DateTime(1970, 1, 1, 0, 0, 0, DateTimeKind.Utc)).TotalMilliseconds; ;
             return TimeInMiliSec.ToString();
         }
-        public void CreateTextFile(StringBuilder sb, string FilePath)
+        public void CreateTextFile(StringBuilder sb)
         {
-            if (!File.Exists(FilePath))
+            if (!File.Exists(PathtoCreateDataFile))
             {
-                using (StreamWriter sw = File.CreateText(FilePath))
+                using (StreamWriter sw = File.CreateText(PathtoCreateDataFile))
                 {
                     sw.WriteLine(sb.ToString());
                 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace KentCam_ApiCall_SampleCode
+namespace API_Call_SampleCode
 {
     static class Program
     {

@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KentCam_ApiCall_SampleCode.Properties
+namespace API_Call_SampleCode.Properties
 {
 
 
@@ -44,7 +44,7 @@ namespace KentCam_ApiCall_SampleCode.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KentCam_ApiCall_SampleCode.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("API_Call_SampleCode.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
