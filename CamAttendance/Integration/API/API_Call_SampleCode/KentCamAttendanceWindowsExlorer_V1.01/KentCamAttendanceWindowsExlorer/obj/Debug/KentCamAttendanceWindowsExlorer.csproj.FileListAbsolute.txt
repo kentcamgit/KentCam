@@ -1,0 +1,48 @@
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.exe.config
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.exe
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.pdb
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.ServerData.resources
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.Properties.Resources.resources
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.GenerateResource.cache
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.CoreCompileInputs.cache
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.exe
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.pdb
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.HRMS_Server_Registration.resources
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.parentForm.resources
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.RecognitionLog.resources
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csprojAssemblyReference.cache
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.dll
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.pdb
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.xml
+D:\Alok Tripathi\my working folder\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.CopyComplete
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.exe.config
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.dll
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.xml
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.ServerData.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.HRMS_Server_Registration.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.parentForm.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.Properties.Resources.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.RecognitionLog.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.GenerateResource.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.CoreCompileInputs.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.CopyComplete
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 3012020\KentCamAttendanceWindowsExlorer\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.exe.config
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\bin\Debug\KentCamAttendanceWindowsExlorer.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.dll
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\bin\Debug\Newtonsoft.Json.xml
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csprojAssemblyReference.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.ServerData.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.Properties.Resources.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.RecognitionLog.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.GenerateResource.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.CoreCompileInputs.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.csproj.CopyComplete
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\KentCamAttendanceWindowsExlorer_V1.01\KentCamAttendanceWindowsExlorer\obj\Debug\KentCamAttendanceWindowsExlorer.pdb
