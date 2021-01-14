@@ -1,0 +1,13 @@
+{
+    "companyId":"BTEST",
+    "email": "skapilq@gmail.com",
+    "empId": "sph02",
+    "firstName": "kapilSa   ",
+    "lastName": "sdsas ",
+    "phoneNumber": "9910121213",
+    "locationId": "sasd ",
+    "designationId": "CS-02",
+    "departmentId": "TEST",
+    "joiningDate":"2020-12-14",    
+    "supervisior":"spj01"
+}
