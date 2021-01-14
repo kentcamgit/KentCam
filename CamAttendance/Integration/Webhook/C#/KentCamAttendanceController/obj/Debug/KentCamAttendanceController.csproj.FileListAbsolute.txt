@@ -1,0 +1,4 @@
+D:\Alok Tripathi\my working folder\KentCamAttendanceController\KentCamAttendanceController\obj\Debug\KentCamAttendanceController.csprojAssemblyReference.cache
+D:\Alok Tripathi\my working folder\KentCamAttendanceController\KentCamAttendanceController\obj\Debug\KentCamAttendanceController.csproj.CoreCompileInputs.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\1\KentCamAttendanceController\KentCamAttendanceController\obj\Debug\KentCamAttendanceController.csprojAssemblyReference.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\1\KentCamAttendanceController\KentCamAttendanceController\obj\Debug\KentCamAttendanceController.csproj.CoreCompileInputs.cache
