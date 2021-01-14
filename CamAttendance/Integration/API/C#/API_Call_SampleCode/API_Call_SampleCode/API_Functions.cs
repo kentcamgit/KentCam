@@ -221,7 +221,7 @@ namespace API_Call_SampleCode
         }
         public void GetBaseUrl()
         {
-            BaseUrl = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "url.txt"));
+            BaseUrl = File.ReadAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Config.txt"));
         }
     }
 }

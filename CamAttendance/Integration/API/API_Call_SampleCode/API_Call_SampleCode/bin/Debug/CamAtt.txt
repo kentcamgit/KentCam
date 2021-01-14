@@ -1,7 +1,0 @@
-{employeeId:1700300,date:2021-01-04,time:20:30:00,deviceSerial:,deviceName:abhishek,locationName:new1,locationId:1,mode:Manual,},
-{employeeId:1700300,date:2021-01-04,time:10:00:00,deviceSerial:,deviceName:abhishek,locationName:new1,locationId:1,mode:Manual,},
-{employeeId:1700300,date:2021-01-04,time:09:00:00,deviceSerial:,deviceName:abhishek,locationName:new1,locationId:1,mode:Manual,},
-{employeeId:1700403,date:2021-01-02,time:12:29:43.255,deviceSerial:,deviceName:,locationName:,locationId:,mode:App,},
-{employeeId:1700403,date:2021-01-02,time:12:29:32.036,deviceSerial:,deviceName:,locationName:,locationId:,mode:App,},
-{employeeId:spj01,date:2021-01-01,time:21:00:00,deviceSerial:,deviceName:abhishek,locationName:new1,locationId:1,mode:Manual,},
-

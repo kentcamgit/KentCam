@@ -1,0 +1,26 @@
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\API_Call_SampleCode.exe.config
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\API_Call_SampleCode.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\API_Call_SampleCode.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\Newtonsoft.Json.dll
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\Newtonsoft.Json.pdb
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\Newtonsoft.Json.xml
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.Form1.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.Properties.Resources.resources
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.csproj.GenerateResource.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.csproj.CoreCompileInputs.cache
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.csproj.CopyComplete
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.exe
+D:\Alok Tripathi\my working folder\NTPC Integration\3. 07012020\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.pdb
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\API_Call_SampleCode.exe.config
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\API_Call_SampleCode.exe
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\API_Call_SampleCode.pdb
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\Newtonsoft.Json.dll
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\Newtonsoft.Json.pdb
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\bin\Debug\Newtonsoft.Json.xml
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.Form1.resources
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.Properties.Resources.resources
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.csproj.GenerateResource.cache
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.csproj.CoreCompileInputs.cache
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.csproj.CopyComplete
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.exe
+D:\Alok Tripathi\my working folder\alok\KentCam\CamAttendance\Integration\API\API_Call_SampleCode\API_Call_SampleCode\obj\Debug\API_Call_SampleCode.pdb
