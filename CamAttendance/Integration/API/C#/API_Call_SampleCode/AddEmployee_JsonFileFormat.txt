@@ -1,13 +1,13 @@
 {
-    "companyId":"BTEST",
+    "companyId":"K05",
     "email": "skapilq@gmail.com",
-    "empId": "sph02",
-    "firstName": "kapilSa   ",
-    "lastName": "sdsas ",
-    "phoneNumber": "9910121213",
-    "locationId": "sasd ",
-    "designationId": "CS-02",
-    "departmentId": "TEST",
+    "empId": "1111111",
+    "firstName": "testemp",
+    "lastName": "test",
+    "phoneNumber": "9011121213",
+    "locationId": "1",
+    "designationId": "DES-001",
+    "departmentId": "Dep_002",
     "joiningDate":"2020-12-14",    
-    "supervisior":"spj01"
+    "supervisior":"1001182"
 }

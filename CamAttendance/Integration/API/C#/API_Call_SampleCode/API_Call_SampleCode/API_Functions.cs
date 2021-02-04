@@ -18,8 +18,13 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
+
 namespace API_Call_SampleCode
 {
+    public class JSONModel
+    {
+
+    }
     class API_Functions
     {
         private string _baseurl = "";
@@ -29,7 +34,9 @@ namespace API_Call_SampleCode
         private string _secureToken = "";
         private string _PathtoCreateDataFile = "";
         private string _JsonFilePathToAddEmp = "";
-
+        private string _EmpId = "";
+        private string _CompanyId = "";
+        
         public API_Functions()
         {
             GetBaseUrl();
@@ -70,12 +77,45 @@ namespace API_Call_SampleCode
             get { return _JsonFilePathToAddEmp; }
             set { _JsonFilePathToAddEmp = value; }
         }
+        public string EmpId
+        {
+            get { return _EmpId; }
+            set { _EmpId = value; }
+        }
+        public string CompanyId
+        {
+            get { return _CompanyId; }
+            set { _CompanyId = value; }
+        }
+        public void GetEmpInfo(string base64EncodedStr)
+        {
 
+            HttpClientHandler handler = new HttpClientHandler();
+            HttpClient client = new HttpClient(handler);
+            string content = string.Empty;
+
+            if (EmpId != "") { EmpId = "/" + EmpId; }
+            string messageUri = BaseUrl + "employee" + EmpId + " ?companyId=" + CompanyId;
+            HttpWebRequest request = (HttpWebRequest)WebRequest.Create(messageUri);
+            var BodyPara = base64EncodedStr;
+            request.Headers.Add("token", base64EncodedStr);
+            request.ContentType = "application/json";
+            request.Method = "Get";
+            HttpWebResponse response = (HttpWebResponse)request.GetResponse();
+            Stream responseStream = response.GetResponseStream();
+            string jsonString = null;
+
+            using (StreamReader reader = new StreamReader(responseStream))
+            {
+                jsonString = reader.ReadToEnd();
+                Console.WriteLine();
+                reader.Close();
+            }
+        }
         public void AddEmployeeExample(dynamic jsonData, string base64EncodedStr)
         {
             try
             {
-
                 HttpClientHandler handler = new HttpClientHandler();
                 HttpClient client = new HttpClient(handler);
 
@@ -114,7 +154,7 @@ namespace API_Call_SampleCode
             StringBuilder sb = new StringBuilder();
             try
             {
-                string lastEvaluatedKey = ""; string Size50 = "&size=50";
+                string lastEvaluatedKey = ""; string Size50 = "&size=100";
                 HttpClientHandler handler = new HttpClientHandler();
                 HttpClient client = new HttpClient(handler);
                 string content = string.Empty;
@@ -141,41 +181,29 @@ namespace API_Call_SampleCode
                     jsonString = reader.ReadToEnd();
                     reader.Close();
                 }
-
-                dynamic dynObj = JsonConvert.DeserializeObject(jsonString);
-
-                foreach (var Root in dynObj.Root)
+                               
+                JObject JsonObj = JObject.Parse(jsonString);
+                string ResStatus = (string)JsonObj["status"]["responseStatus"];
+                if (ResStatus == "Success")
                 {
-                    foreach (var data in Root)
+                    int count = (int)JsonObj["response"]["list"].Count<JToken>();
+                    string EvalKey = (string)JsonObj["response"]["lastEvaluatedKey"];
+
+                    for (int i = 0; i < count; i++)
+                    {                        
+                        string employeeId = (string)JsonObj["response"]["list"][i]["employeeId"];
+                        string date = (string)JsonObj["response"]["list"][i]["date"];
+                        string time = (string)JsonObj["response"]["list"][i]["time"];
+                        string deviceSerial = (string)JsonObj["response"]["list"][i]["deviceSerial"];
+                        string locationName = (string)JsonObj["response"]["list"][i]["locationName"];
+                        string locationId = (string)JsonObj["response"]["list"][i]["locationId"];
+                        string mode = (string)JsonObj["response"]["list"][i]["mode"];
+                        sb.Append("{"+employeeId + "," + date + "," + time + "," + deviceSerial + "," + locationName + "," + locationId + "," + mode + "},\r\n");
+                    }
+                    if (EvalKey != null && EvalKey != "")
                     {
-                        foreach (JProperty keyValue in data)
-                        {
-                            string KeyName = keyValue.Name.ToString();
-                            var KeyVal = keyValue.Value;
-                            if (KeyName == "list")
-                            {
-                                foreach (var data1 in KeyVal)
-                                {
-                                    sb.Append("{");
-                                    foreach (JProperty keyValue2 in data1)
-                                    {
-                                        string KeyName2 = keyValue2.Name.ToString();
-                                        var KeyVal2 = keyValue2.Value;
-                                        sb.Append(KeyName2 + ":" + KeyVal2 + ",");
-                                    }
-                                    sb.Append("},\r\n");
-                                }
-                            }
-                            if (KeyName == "lastEvaluatedKey")
-                            {
-                                if (KeyVal.ToString() != "")
-                                {
-                                    lastEvaluatedKey = "";
-                                    lastEvaluatedKey = "&lastEvaluatedKey=" + KeyVal;
-                                    goto Found;
-                                }
-                            }
-                        }
+                        lastEvaluatedKey = "&lastEvaluatedKey=" + EvalKey;
+                        goto Found;
                     }
                 }
             }
@@ -211,12 +239,9 @@ namespace API_Call_SampleCode
         }
         public void CreateTextFile(StringBuilder sb)
         {
-            if (!File.Exists(PathtoCreateDataFile))
+            using (StreamWriter sw = File.CreateText(PathtoCreateDataFile))
             {
-                using (StreamWriter sw = File.CreateText(PathtoCreateDataFile))
-                {
-                    sw.WriteLine(sb.ToString());
-                }
+                sw.WriteLine(sb.ToString());
             }
         }
         public void GetBaseUrl()
